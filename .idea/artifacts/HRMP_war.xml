@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="HRMP:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>HRMP</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="HRMP-1.1.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="HRMP:war exploded" />
+    </root>
+  </artifact>
+</component>
